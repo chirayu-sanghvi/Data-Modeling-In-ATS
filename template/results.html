@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Results</title>
+</head>
+<body>
+    <div class="container">
+    <a href="/"> << Back to Home</a>
+    <h1>Query Results</h1>
+
+    {% if executed_query %}
+    <div class="executed-query">
+        <strong>Executed Query:</strong>
+        <pre>{{ executed_query }}</pre>
+    </div>
+    {% endif %}
+    
+    {% if rows %}
+    <table border="1">
+        <thead>
+            <tr>
+                {% for header in rows[0].keys() %}
+                <th>{{ header }}</th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in rows %}
+            <tr>
+                {% for cell in row.values() %}
+                <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No results found.</p>
+    {% endif %}
+    </div>
+</body>
+</html>
