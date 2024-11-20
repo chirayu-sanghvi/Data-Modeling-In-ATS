@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>Query Interface</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h1> Talent Sphere SQL Query Interface</h1><hr>
+    <h2>Select a Query to Execute</h2>
+    <form action="/execute_query" method="post">
+        <button type="submit" name="query_number" value="1">Query 1 - Recent Jobs posted in descending order with respect to date</button><br>
+        <button type="submit" name="query_number" value="2">Query 2 - Show the list of interviews scheduled for an applicant, company wise wrt upcoming date in ascending order.</button><br>
+        <button type="submit" name="query_number" value="3">Query 3 - Query results for active onsite jobs in the finance field.
+        </button><br>
+        <button type="submit" name="query_number" value="4">Query 4 - Find the top 5 applicants with the most applications for active jobs, show their latest application details, and count of applications. Order by the count of applications and then by the most recent application date.</button><br>
+        <button type="submit" name="query_number" value="5">Query 5 - Find the names of companies along with the count of applications for jobs in the 'Finance' field.
+        </button><br>
+        <button type="submit" name="query_number" value="6">Query 6 -  Retrieve the list of applicants who have been shortlisted, along with the names of their assigned interviewers.
+            </button><br>
+    </form>
+    <h2>Or execute a custom SQL query:</h2>
+    <form action="/query" method="post">
+        <textarea name="sql" rows="4" cols="50" placeholder="Enter your SQL query here"></textarea><br>
+        <button type="submit">Execute Query</button>
+    </form>
+    </div>
+</body>
+</html>
