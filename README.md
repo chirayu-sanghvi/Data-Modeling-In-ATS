@@ -3,6 +3,11 @@
 Data Modeling in ATS (Applicant Tracking System) is a Python-based project designed to create, manipulate, and manage database tables effectively. The project provides utilities for table creation, deletion, and viewing results through a web interface powered by Flask.
 
 ---
+## Demo Video
+
+Watch the demo video directly here:  
+[![Demo Video](https://via.placeholder.com/600x300.png?text=Demo+Video+Preview)]([https://drive.google.com/uc?id=YOUR_FILE_ID](https://drive.google.com/file/d/137IlEInLIAr6yHuo61FtIJA2OySg51IN/view))
+---
 
 ## Features
 
