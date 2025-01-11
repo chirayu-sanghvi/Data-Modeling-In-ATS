@@ -95,9 +95,18 @@ if deploying to a platform like Heroku:
    ```
 ---
 ## License
-This project is licensed under the MIT License. See the LICENCSE file for details.
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 ---
+
 ## Contact
-For queries, reach out to **Chirayu Sanghvi** at chirayus@buffalo.edu
+
+For queries, reach out to **Chirayu Sanghvi** at [chirayus@buffalo.edu](mailto:chirayus@buffalo.edu).
+
 ---
-Acknowledgments
+
+## Acknowledgments
+
+- **PostgreSQL**: [Documentation](https://www.postgresql.org/)
+- **Heroku**: [Heroku](https://www.heroku.com/?utm_source=google&utm_medium=paid_search&utm_campaign=amer_heraw&utm_content=general-branded-search-rsa&utm_term=heroku&utm_source_platform=GoogleAds&gad_source=1&gclid=CjwKCAiAp4O8BhAkEiwAqv2UqNYlFb9wLLmxGDnwez1oHZa3s4W5awKaUJpj1FvV7-sVoiPxOQ2DHxoCa90QAvD_BwE)
