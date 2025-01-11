@@ -5,7 +5,7 @@ Data Modeling in ATS (Applicant Tracking System) is a Python-based project desig
 ---
 ## Demo Video
 
-Watch the demo video directly here:  
+Click on the thumbnail to watch the demo:  
 [![Demo Video](https://raw.githubusercontent.com/chirayu-sanghvi/Data-Modeling-In-ATS/main/TalentSphere.jpg)](https://drive.google.com/file/d/137IlEInLIAr6yHuo61FtIJA2OySg51IN/view)
 
 ---
